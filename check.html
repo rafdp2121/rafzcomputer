@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Out</title>
+    <link rel="stylesheet" href="style-2.css">
+</head>
+<body>
+    <header>
+        <h1>Checkout</h1>
+    </header>
+
+    <section id="checkout-form">
+        <h2>Informasi Pengiriman</h2>
+        <form>
+            <label for="name">Nama Lengkap:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="address">Alamat:</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="city">Kota:</label>
+            <input type="text" id="city" name="city" required>
+
+            <label for="postal-code">Kode Pos:</label>
+            <input type="text" id="postal-code" name="postal-code" required>
+
+            <label for="phone">Nomor Telepon:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <h2>Metode Pembayaran</h2>
+            <label for="payment-method">Pilih Metode Pembayaran:</label>
+            <select id="payment-method" name="payment-method" required>
+                <option value="credit-card">Kartu Kredit</option>
+                <option value="bank-transfer">Transfer Bank</option>
+                <option value="paypal">PayPal</option>
+            </select>
+
+            <button type="submit">Selesaikan Pembayaran</button>
+        </form>
+    </section>
+</body>
+</html>
